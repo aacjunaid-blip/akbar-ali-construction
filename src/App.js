@@ -27,7 +27,7 @@ function App() {
   const [showEditProfile, setShowEditProfile] = useState(false);
 
   const [banks, setBanks] = useState([
-    { id: 1, bankName: "Meezan Bank", accountNumber: "1234-5678-90", openingAmount: 500000, currentBalance: 500000 }
+    { id: 1, bankName: "Meezan Bank", accountNumber: "1234-5678-90", openingAmount: 0, currentBalance: 500000 }
   ]);
   const [newBankName, setNewBankName] = useState('');
   const [newAccNo, setNewAccNo] = useState('');
